@@ -14,6 +14,9 @@
 - Prisma ORM
 - SQLite
 
+1. `npm i`
+2. `npx prisma migrate dev --name init`
+
 You can update the schema in schema.prisma and run `npx prisma migrate dev` to update the tables. You can add models or update the config in `prisma.prisma` file.
 
 ## Authentication
