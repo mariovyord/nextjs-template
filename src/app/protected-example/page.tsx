@@ -1,7 +1,5 @@
 import withAuth from "@/components/with-auth";
 
-const ProtectedExamplePage = () => {
+export default function ProtectedExamplePage() {
   return <div>This is protected page. User should be authenticated.</div>;
-};
-
-export default withAuth(ProtectedExamplePage);
+}
